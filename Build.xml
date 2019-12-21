@@ -17,10 +17,10 @@
 	
 	<target name="copy" depends="create">
 		<copy overwrite="true" todir="lib">
-			<fileset dir="C:\Junit" includes="*.jar"></fileset>
+			<fileset dir="C:\Program Files (x86)\Jenkins\plugins\junit" includes="*.jar"></fileset>
 		</copy>
 		<copy overwrite="true" todir="src">
-			<fileset dir="C:\testcases" includes="*.java"></fileset>
+			<fileset dir="C:\Users\potti\JunitTutorial-master\src\com\testcases" includes="*.java"></fileset>
 		</copy>
 	</target>
 	
