@@ -1,4 +1,4 @@
-package com.testcases;
+//package com.testcases;
 
 import junit.framework.TestResult;
 import junit.framework.TestSuite;
