@@ -20,7 +20,7 @@
 			<fileset dir="C:\Junit" includes="*.jar"></fileset>
 		</copy>
 		<copy overwrite="true" todir="src">
-			<fileset dir="D:\Test-SVN\Junit\src\com\testcases" includes="*.java"></fileset>
+			<fileset dir="C:\testcases" includes="*.java"></fileset>
 		</copy>
 	</target>
 	
